@@ -41,28 +41,28 @@
                         <label for="usuario_id">ID do Usuário:</label><br>
                         <input type="text" id="usuario_id" name="usuario_id">
                     </div> -->
-                    <div>
+                    <div class="mb-3">
                         <label for="nome">Nome do Usuário:</label>
-                        <input type="text" id="nome" name="nome">
+                        <input class="form-control" type="text" id="nome" name="nome">
                     </div>
-                    <div>
+                    <div class="mb-3">
                         <label for="cpf">CPF do Usuário:</label>
-                        <input type="text" id="cpf" name="cpf">
+                        <input class="form-control" type="text" id="cpf" name="cpf">
                     </div>
-                    <div>
+                    <div class="mb-3">
                         <label for="email">Email do Usuário:</label>
-                        <input type="email" id="email" name="email">
-                    </div>
-                    <div>
+                        <input class="form-control" type="email" id="email" name="email">
+                    </div class="mb-3">
+                    <div class="mb-3">
                         <label for="senha">Senha do Usuário:</label>
-                        <input type="password" id="senha" name="senha">
+                        <input class="form-control" type="password" id="senha" name="senha">
                     </div>
-                    <div>
+                    <div class="form-check ">
                         <label for="status">Status:
-                            <input type="checkbox" id="status" name="status"></label>
+                        <input type="checkbox" id="status" name="status"></label>
                     </div>
-                    <div>
-                        <button type="submit">SALVAR</button>
+                    <div class="mb-3">
+                        <button class="btn btn-primary" type="submit">SALVAR</button>
                     </div>
                 </form>
             </div>
